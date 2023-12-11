@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IBAN to Sort Code and Account Number Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link to the external CSS file -->
+  </head>
+  <body>
+    <div class="container">
+      <h1>IBAN Breakdown</h1>
+      <p>
+        Enter your IBAN to retrieve the corresponding sort code and account
+        number. This tool is designed for UK and Ireland IBANs.
+      </p>
+
+      <form id="ibanForm">
+        <input type="text" id="ibanInput" placeholder="Enter IBAN" required />
+        <button type="submit">Submit</button>
+      </form>
+      <div id="result"></div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
